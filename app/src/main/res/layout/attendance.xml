@@ -1,0 +1,111 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="1dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/textview1"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Total Days"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview2"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="100"
+					android:textSize="18sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/textview3"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Present Days"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview8"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="50"
+					android:textSize="18sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/textview6"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Absent Days"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview10"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="50"
+					android:textSize="18sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview11"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="By:- Class Teacher "
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:layout_gravity="right" />
+	</LinearLayout>
+</LinearLayout>

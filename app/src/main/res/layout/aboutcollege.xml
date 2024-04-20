@@ -1,0 +1,64 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="#E3F2FD"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="About College"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#2196F3" />
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/default_image"
+					android:scaleType="center"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="\n\n   yyyyy\nPRE UNIVERSITY COLLEGE\nwas established in 2014 . \nyyyy school of Education is an institution started by a group of progressive thinking Academicians with an intension of providing quality education for students, to train them for developing competency to take up State level as well as National level competitive examinations and build their future for changing their scenario. \n\nyyy school of Education aims at shaping the younger minds for a better future and also strive to produce the students to be honest and integrated, committed to the \nservice of others and dedicated leadership. The motto of the Institution is to “STAY AHEAD” and keen desire is to be the \nBEST at whatever we do."
+					android:textSize="18sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
